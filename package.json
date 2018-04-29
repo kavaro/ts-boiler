@@ -15,6 +15,7 @@
   },
   "scripts": {
     "test": "jest",
+    "coverage": "jest --coverage",
     "prepublishOnly": "tsc -d -p ./ --outDir dist/"
   },
   "jest": {
