@@ -5,7 +5,9 @@ Super simpler typescript boilerplate project
 # Usage
 
 ```bash
-git clone project 
+mkdir projectDirectory
+cd projectDirectory
+git clone https://github.com/kavaro/ts-boiler.git . 
 rm -rf .git
 ```
 
