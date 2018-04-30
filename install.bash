@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ "$#" -ne 1 ]; then
-    Usage: "install.bash PROJECT_NAME"
+    echo "Usage: install.bash PROJECT_NAME"
     exit 1;
 fi
 
