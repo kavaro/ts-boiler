@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": "github:kavaro/ts-boiler",
   "author": "kavaro",
   "license": "MIT",
   "dependencies": {},
@@ -11,12 +12,14 @@
     "@types/node": "^8.5.5",
     "jest": "^22.4.3",
     "ts-jest": "^22.4.4",
-    "typescript": "^2.8.3"
+    "typescript": "^2.8.3",
+    "semantic-release": "^15.1.7"
   },
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "prepublishOnly": "tsc -d -p ./ --outDir dist/"
+    "prepublishOnly": "tsc -d -p ./ --outDir dist/",
+    "release": "semantic-release --no-ci"
   },
   "jest": {
     "transform": {
