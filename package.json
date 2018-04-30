@@ -19,7 +19,7 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "prepublishOnly": "rm -rf dist && tsc -d -p ./ --outDir dist/",
-    "release": "semantic-release --no-ci"
+    "release": "yarn test && semantic-release --no-ci"
   },
   "jest": {
     "transform": {
