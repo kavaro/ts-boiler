@@ -9,5 +9,4 @@ rm -rf .git && \
 sed -i -e "s/ts-boiler/$1/g" package.json && \
 rm -f rm package.json-e && \
 git init && yarn install && \
-git remote add origin https://github.com/kavaro/$1.git && \
-git push -u origin master
+git remote add origin https://github.com/kavaro/$1.git
