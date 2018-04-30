@@ -8,7 +8,7 @@ Super simpler typescript boilerplate project
 mkdir projectDirectory
 cd projectDirectory
 git clone https://github.com/kavaro/ts-boiler.git . 
-./install.bash PROJECT_NAME
+./install.bash PROJECT_NAME 
 ```
 
 ## Commit Message Format
