@@ -18,7 +18,7 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "prepublishOnly": "tsc -d -p ./ --outDir dist/",
+    "prepublishOnly": "rm -rf dist && tsc -d -p ./ --outDir dist/",
     "release": "semantic-release --no-ci"
   },
   "jest": {
